@@ -1,16 +1,18 @@
 import { useState } from "react";
-const AddCategory = ({setCategories}) => {
-  const [inputValue, setinpuntValue] = useState("");
+const AddCategory = ({ onNewCategory }) => {
+  const [inputValue, setInpuntValue] = useState("");
 
   const onInputChange = ({ target }) => {
-    setinpuntValue(target.value);
+    setInpuntValue(target.value);
   };
 
-  const onSubmit =(event)=>{
+  const onSubmit = (event) => {
     event.preventDefault();
-    setCategories(categories=>  [...categories,inputValue ]);
-    
-  }
+    if (inputValue.trim().length <= 1) {
+      return;
+    }
+    onNewCategory(inputValue.trim());
+  };
   return (
     <form
       onSubmit={(event) => {
