@@ -26,6 +26,8 @@ setImagenes(newImages);
     ))
     }
 
+    
+
   </ol>
   </>;
 };
