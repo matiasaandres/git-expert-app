@@ -10,4 +10,3 @@ export const GifGridItem = ({title,url}) => {
 }
 
 
-export default GifGridItem;
