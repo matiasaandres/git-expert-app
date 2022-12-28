@@ -31,6 +31,7 @@ describe("Pruebas en <GifGridItem />", () => {
  
     render(<GifGridItem title={title} url={url} />);
 
+    // Evalua que el elmento title exista toBeTruthy()
     expect(screen.getByText(title)).toBeTruthy();
 
 
