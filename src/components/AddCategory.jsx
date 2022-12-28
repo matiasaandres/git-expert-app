@@ -13,6 +13,7 @@ export const AddCategory = ({ onNewCategory }) => {
     if (inputValue.trim().length <= 1) {
       return;
     }
+    setInpuntValue('');
     onNewCategory(inputValue.trim());
   };
   return (
@@ -20,6 +21,7 @@ export const AddCategory = ({ onNewCategory }) => {
       onSubmit={(event) => {
         onSubmit(event);
       }}
+       aria-label="form"
     >
       <input
         type="text"
