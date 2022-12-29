@@ -42,9 +42,17 @@ expect(onNewCategory).toHaveBeenCalledWith(inputValue);
  });
 
 
- test('No debe de llmar el onNerwCategory si el input esta vacio', () => {
+ test('No debe de llamar el onNerwCategory si el input esta vacio', () => {
 
+    const onNewCategory = jest.fn();
+    render(<AddCategory onNewCategory={onNewCategory}/>);
+    
+    const form = screen.getByRole('form');
+    fireEvent.submit(form);
 
+    // evalua que la funcion no sea llamada
+
+    expect(onNewCategory).toHaveBeenCalledTimes(0);
 
     
   })
