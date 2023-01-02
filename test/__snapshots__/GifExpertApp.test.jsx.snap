@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba el component <GifExpertApp/> Debe  1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      id=""
+      name=""
+      placeholder="Buscar Gif"
+      type="text"
+      value=""
+    />
+  </form>
+  <h3 />
+  <h2>
+     Cargando... 
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
+
+exports[`Prueba el component <GifExpertApp/> Debe hacer mach con el snap 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      id=""
+      name=""
+      placeholder="Buscar Gif"
+      type="text"
+      value=""
+    />
+  </form>
+  <h3 />
+  <h2>
+     Cargando... 
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
+
+exports[`Prueba el component <GifExpertApp/> Debe hacer mach con el snapshot 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      id=""
+      name=""
+      placeholder="Buscar Gif"
+      type="text"
+      value=""
+    />
+  </form>
+  <h3 />
+  <h2>
+     Cargando... 
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
+
+exports[`Prueba el component <GifExpertApp/> Debe hacer snapchop 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      id=""
+      name=""
+      placeholder="Buscar Gif"
+      type="text"
+      value=""
+    />
+  </form>
+  <h3 />
+  <h2>
+     Cargando... 
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
+
+exports[`Prueba el component <GifExpertApp/> should first 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      id=""
+      name=""
+      placeholder="Buscar Gif"
+      type="text"
+      value=""
+    />
+  </form>
+  <h3 />
+  <h2>
+     Cargando... 
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
